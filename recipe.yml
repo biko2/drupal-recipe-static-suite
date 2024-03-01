@@ -1,0 +1,22 @@
+name: 'Static Suite'
+description: 'Static Suite.'
+type: 'Site'
+install:
+  - graphql
+  - graphql_core
+  - graphql_fragment_include
+  - graphql_metatag
+  - graphql_node_preview
+  - metatag
+  - schema_metatag
+  - static_suite
+  - static_build
+  - static_builder_gatsby
+  - static_export
+  - static_export_data_resolver_graphql
+  - static_export_exporter_language_metadata
+  - static_export_output_formatter_json
+  - static_export_stream_wrapper_local
+  - static_preview
+  - static_preview_gatsby_instant
+  - image_style_warmer

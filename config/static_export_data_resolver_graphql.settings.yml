@@ -1,0 +1,3 @@
+dir: /sites/default/graphql
+data_server_endpoint: 'http://localhost:57471'
+data_server_preview_data: false

@@ -1,0 +1,20 @@
+local:
+  sync: false
+live:
+  builders:
+    - gatsby
+  build_trigger_regexp_list: {  }
+  toolbar: true
+preview:
+  builders:
+    - gatsby
+  build_trigger_regexp_list:
+    - 'config\/.*'
+    - 'locale\/.*'
+  toolbar: true
+base_dir: /../static/build
+number_of_releases_to_keep: 5
+semaphore_timeout: 900
+env:
+  - CI=true
+drush_options: ''

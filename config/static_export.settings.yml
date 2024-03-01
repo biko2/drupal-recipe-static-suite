@@ -1,0 +1,20 @@
+work_dir: /../static/data/.work
+max_days_to_keep_logs: 10
+uri:
+  scheme: static-local
+exportable_entity:
+  enabled: true
+  exporter: default_entity
+exportable_config:
+  enabled: true
+  exporter: default_config
+  objects_to_export: {  }
+  format: json
+  export_when_crud_happens_on_cli: false
+  request_build_when_crud_exports_on_cli: false
+exportable_locale:
+  enabled: true
+  exporter: keyvalue_locale
+  format: json
+  export_when_crud_happens_on_cli: true
+  request_build_when_crud_exports_on_cli: false
